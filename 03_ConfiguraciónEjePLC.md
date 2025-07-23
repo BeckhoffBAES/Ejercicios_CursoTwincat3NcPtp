@@ -8,6 +8,7 @@
 6. ¿La entrad Execute de los FB's de motion trabaja por nivel o flanco ascendente?
 7. ¿Cuando se resetean las salidas de un FB (done, error...) de motion?
 8. ¿Los FB's de motion se deben llamar de forma cíclica?
+9. ¿En que variable del AIXS_REF se puede consultar la posición y velocidad actual del eje?
 
 ### Práctico ###
 1. Crea un FB llamado FB_Axis que tenga definidos los siguientes FB's: Axis (tipo AXIS_REF), MC_Power, MC_Reset, MC_MoveAbsolute, MC_Jog, MC_Halt, MC_Stop como variables d'entrada. Haz la llamada de todos los FB's anteriores en el cuerpo principal del FB asignando el Axis a cada bloque.  
