@@ -13,5 +13,5 @@
 11. ¿Para que sirve el position bias del eje NC?
 
 ### Práctico ###
-1. Implementa la función de MC_Home en el FB_Axis y úsala en el programa de Motion para referenciar los dos servos con la señal inductiva de cada uno. 
+1. Implementa la función de MC_Home en el FB_Axis y úsala en el programa de Motion para referenciar los dos servos con la señal inductiva de cada uno antes de iniciar cualquier posicionado. 
 2. Comprueba si los servos de la demo tienen encoder absoluto. Si es afirmativo ajusta el position bias de los ejes NC para que el zero del encoder coincida con la regla. Comprueba que al quitar tensión del PLC se mantiene la referencia sin tener que hacer rutina de homing.    
