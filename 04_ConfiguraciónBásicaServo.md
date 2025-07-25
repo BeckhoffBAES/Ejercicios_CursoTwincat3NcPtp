@@ -6,8 +6,8 @@
 ![](/images/LinkDriveToNCDialog.png)
 4. ¿Que debo responder si estoy escaneando por primera vez la red EtherCAT?
 ![](/images/ScanMotorDialog.png)
-5. ¿Qué debo proyecto debo agregar a la solución de TwinCAT para configurar el drive Beckhoff?
-6. ¿Cuando sale el siguiente dialogo y que puedo configurar en el?
+5. ¿Qué proyecto debo agregar a la solución de TwinCAT para configurar un drive Beckhoff?
+6. ¿Cuando sale el siguiente dialogo, que puedo configurar en el?
 ![](/images/DM2InitDialog.png)
 7. ¿Como debo configurar la carga en el Drive Manager 2 (DM2) si dispongo de un husillo de paso 10 mm?
 8. ¿Como debo configurar la carga en el Drive Manager 2 (DM2) si dispongo un sistema mecánico con reductora i=20 y una polea de diámetro 100 mm?
