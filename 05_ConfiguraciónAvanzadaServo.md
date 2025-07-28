@@ -15,6 +15,6 @@
 1. Añade el par actual en el *process data* de los dos canales del AX8206 y verifica su valor a través del AXIS_REF.
 2. Consulta el código de error del drive mediante la librería TC2_MC2_drive. 
 3. Consulta el histórico de errores del drive mediante la librería Tc3_EtherCATDiag.
-4. Configura que la reacción ante un error de drive sea por rampa con una deceleración que permita para el eje con un máximo de 0.5s desde máxima velocidad. 
+4. Configura que la reacción ante un error de drive sea por rampa con una deceleración que permita parar el eje con un máximo de 0.5s desde máxima velocidad. 
 5. Haz un tunning manual de las constantes del bucle de posición y velocidad para minimizar el error de seguimiento sin que el eje vibre ni genere ruido. <br> 
-:warning: NOTA: Utilitza la función de *reversing sequence* para generar un movimiento alternativo entre 0º y 3600º (10 vueltas) con el tiempo mínimo posible.
+:warning: NOTA: Utilitza la función de *reversing sequence* para generar un movimiento alternativo entre 0º y 3600º (10 vueltas) con el tiempo mínimo posible sin que salte el error de seguimiento (*lag error*).
