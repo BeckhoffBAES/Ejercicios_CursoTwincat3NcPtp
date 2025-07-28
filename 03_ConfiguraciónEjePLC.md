@@ -15,8 +15,8 @@
 ### Práctico ###
 1. Crea un FB llamado FB_Axis que tenga definidos los siguientes FB's: Axis (tipo AXIS_REF), MC_Power, MC_Reset, MC_MoveAbsolute, MC_Jog, MC_Halt, MC_Stop como variables d'entrada. Haz la llamada de todos los FB's anteriores en el cuerpo principal del FB. Asigna el Axis a cada bloque.  
 2. Crea dos instancias del FB_Axis en un GVL llamado GVL_Ejes. Complia y vincula los dos ejes creados en el módulo anterior.
-3. Crea un programa Motion que llame a los FB_Axis. Comprueba el correcto funcionamiento del MC_Power y MC_Jog escribiendo valores a sus entradas. 
-4. Crea una secuencia en el programa Motion que habilite los dos ejes y haga un posicionado absoluto a 0 a una velocidad del 30 % de la velocidad máxima del eje con las dinámicas por defecto. Usa el FB_Axis.
+3. Crea un programa Motion que llame a los FB_Axis. Comprueba el correcto funcionamiento del MC_Power y MC_Jog escribiendo valores a sus entradas desde el editor de PLC de TwinCAT. 
+4. Crea una secuencia en el programa Motion que habilite los dos ejes y haga un posicionado absoluto a 0 a una velocidad del 30 % de la velocidad máxima del eje con las dinámicas por defecto. Usa el FB_Axis para la implementación.
 5. Modifica el FB_Axis y el programa Motion para obtener la misma funcionalidad del módulo anterior.
 
 
