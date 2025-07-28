@@ -15,4 +15,4 @@
 13. ¿Qué pestaña del eje NC permite cambiar el link contra IO y PLC?
 
 ### Práctico ###
-1. Realiza un proyecto de TwinCAT para simular dos ejes que trabajan acoplados con una relación 1:1 Haz que el master realiza una secuencia de posicionado cíclica entre 0º y 360º en 0.5s con un tiempo de espera de 0.5s. Verifica el resultado con un proyecto de Scope. Cambia el ratio de sincronismo para que visualmente trabajen en la misma dirección. 
+1. Realiza un proyecto de TwinCAT para simular dos ejes que trabajan acoplados con una relación 1:1 Haz que el master realiza una secuencia de posicionado cíclica entre 0º y 360º en 0.5s con un tiempo de espera de 0.5s. Verifica el resultado con un proyecto de Scope. 
