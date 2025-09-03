@@ -12,16 +12,16 @@
 10. ¿Qué FB permite saber el ID de la tabla que está activada en el esclavo?
 
 ### Práctico ###
-1. Utilizando la TE1510 crea una tabla de tipo *motion function point* y activala. Usa un eje NC como master y el otro como seguidor. 
-2. Modifica el FB_Axis y el programa de motion para obtener la misma funcionalidad que el punto anterior.
-3. Modifica la leva según la tabla de más abajo. Los dos ejes deben partir de 0º y el acople debe ser en absoluto. Verifica el comportamiento con un proyecto de scope. Configura la tabla para que sea periódica.
+1. Utilizando la TE1510 crea una tabla de tipo *motion function point* y activala desde el proyecto de Motion. Usa un eje NC como master y el otro como seguidor. 
+2. Añade al FB_Axis los FB's de MC_CamIN_v2, MC_CamTableSelect y MC_MoveVelocity. 
+3. Modifica la leva según la tabla siguiente con el TE1510. 
 
 | Posición Master   | Posición Eslavo   | Tipo de movimiento    |
 | --------          | -------           | -------               |
-| 0º                | 0º                |
-| 360*4º            | 360*2º            | aceleración
-| 360*2º            | 360*2º            | velocidad constante
-| 360*4º            | 360*2º            | deceleración
+| 0                 | 0                 |
+| 1440              | 720               | aceleración (interpolación (Poly5_MM))
+| 2160              | 1440              | velocidad constante (Synchron (Poly1))
+| 3600              | 2160              | deceleración (interpolación (Poly5_MM))
 
-    
+4. Añade a la secuencia de PLC realizada en los módulos anteriores, el acople de la leva del punto 3 contra el canal 2 y el posterior movimiento en velocidad del master (canal 1). Usa el interruptor SF11 para iniciar y reiniciar la secuencia. Verifica el movimiento del esclavo con un proyecto de scope.    
 
