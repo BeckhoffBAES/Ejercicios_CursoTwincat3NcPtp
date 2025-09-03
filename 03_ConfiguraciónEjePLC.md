@@ -18,5 +18,6 @@
 3. Crea un programa Motion que llame a los FB_Axis. Comprueba el correcto funcionamiento del MC_Power y MC_Jog escribiendo valores a sus entradas desde el editor de PLC de TwinCAT. 
 4. Crea una secuencia en el programa Motion que habilite los dos ejes y haga un posicionado absoluto a 0 a una velocidad del 30 % de la velocidad máxima del eje con las dinámicas por defecto. Usa el FB_Axis para la implementación.
 5. Modifica el FB_Axis y el programa Motion para obtener la misma funcionalidad del módulo anterior (02_EjeNC).
+6. Añade la llamada de la acción ReadStatus del AXIS_REF dentro del FB_Axis. Consulta la posición y velocidad actual de los dos ejes desde el programa motion así como el MotionState.
 
 
