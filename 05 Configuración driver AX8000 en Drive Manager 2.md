@@ -4,27 +4,25 @@
 2. ¿Para que se usan los 4 interruptores del frontal del kit AX8000?
 3. ¿Si ya dispongo de Ejes NC préviamente creados en el proyecto que debo responder al siguiente mensaje al escanear la red EtherCAT?
 ![](/images/LinkDriveToNCDialog.png)
-4. ¿Que debo responder si estoy escaneando por primera vez la red EtherCAT?
-![](/images/ScanMotorDialog.png)
-5. ¿Qué proyecto debo agregar a la solución de TwinCAT para configurar un drive Beckhoff?
-6. ¿Cuando sale el siguiente dialogo, que puedo configurar en el?
+4. ¿Qué proyecto debo agregar a la solución de TwinCAT para configurar un drive Beckhoff?
+5. ¿Cuando sale el siguiente dialogo, que puedo configurar en el?
 ![](/images/DM2InitDialog.png)
-7. ¿Como debo configurar la carga en el Drive Manager 2 (DM2) si dispongo de un husillo de paso 10 mm?
-8. ¿Como debo configurar la carga en el Drive Manager 2 (DM2) si dispongo un sistema mecánico con reductora i=20 y una polea de diámetro 100 mm?
-9. ¿Como debo configurar la carga en el Drive Manager 2 (DM2) si dispongo un sistema mecánico con reductora i=10 y un plato rotativo de 360º?
-10. ¿En que pestaña del DM2 puedo ver los parámetros del eje NC que configura el DM2 en función de la carga configurada y la placa motor del servo? 
-11. ¿Que significa el siguiente estado del display del AX8000? <br>
+6. ¿Como debo configurar la carga en el Drive Manager 2 (DM2) si dispongo de un husillo de paso 10 mm?
+7. ¿Como debo configurar la carga en el Drive Manager 2 (DM2) si dispongo un sistema mecánico con reductora i=20 y una polea de diámetro 100 mm?
+8. ¿Como debo configurar la carga en el Drive Manager 2 (DM2) si dispongo un sistema mecánico con reductora i=10 y un plato rotativo de 360º?
+9. ¿En que pestaña del DM2 puedo ver los parámetros del eje NC que configura el DM2 en función de la carga configurada y la placa motor del servo? 
+10. ¿Que significa el siguiente estado del display del AX8000? <br>
 ![](/images/AX8000SafeyStateDisplay.png)
-12. ¿Cuando se cambia un parámetro del drive AX8000 en el DM2 dónde se queda guardado, en el propio drive o en el *startup list*?
-13. ¿Después de cambiar algún parámetro del DM2 debo activar configuración?
-14. ¿En que pantalla del DM2 se puede ver el listado de parámetros del canal 1 del AX8206?
-15. Comprueba la configuración de corriente del AX8206. ¿Qué valor tiene la corriente de pico de cada canal respecto la corriente nominal? ¿Hasta que valor es posible configurarla?
+11. ¿Cuando se cambia un parámetro del drive AX8000 en el DM2 dónde se queda guardado, en el propio drive o en el *startup list*?
+12. ¿Después de cambiar algún parámetro del DM2 debo activar configuración?
+13. ¿En que pantalla del DM2 se puede ver el listado de parámetros del canal 1 del AX8206?
+14. Comprueba la configuración de corriente del AX8206. ¿Qué valor tiene la corriente de pico de cada canal respecto la corriente nominal? ¿Hasta que valor es posible configurarla?
 ![](/images/ConfigCorrienteCanalesAX8000.png)
-16. ¿En que pantalla del DM2 puedo invertir el sentido de giro del servo?
-17. ¿Para que sirve el control de módulo del AX8000?
-18. ¿Para que sirve el *position offset* del AX8000?
-19. ¿Qué necesito configurar en el DM2 para poder hacer un control de par con el AX8000 con límite de velocidad?
-20. ¿En que pantalla del DM2 puedo configurar la reacción del drive ante un error?
+15. ¿En que pantalla del DM2 puedo invertir el sentido de giro del servo?
+16. ¿Para que sirve el control de módulo del AX8000?
+17. ¿Para que sirve el *position offset* del AX8000?
+18. ¿Qué necesito configurar en el DM2 para poder hacer un control de par con el AX8000 con límite de velocidad?
+19. ¿En que pantalla del DM2 puedo configurar la reacción del drive ante un error?
 
 ### Práctico ###
 1. Instala el paquete necesario para configurar un drive Beckhoff. 
