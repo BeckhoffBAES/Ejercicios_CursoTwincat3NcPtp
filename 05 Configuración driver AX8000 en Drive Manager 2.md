@@ -1,4 +1,4 @@
-## 4. Configuración Básica Servo ##
+## 5. Configuración driver AX8000 en Drive Manager 2 ##
 ### Cuestionario ###
 1. ¿Qué TE necesito instalar previamente para configurar drives Beckhoff en TwinCAT?
 2. ¿Para que se usan los 4 interruptores del frontal del kit AX8000?
