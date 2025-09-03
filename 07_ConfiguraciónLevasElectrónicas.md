@@ -23,5 +23,5 @@
 | 2160              | 1440              | velocidad constante (Synchron (Poly1))
 | 3600              | 2160              | deceleración (interpolación (Poly5_MM))
 
-4. Añade a la secuencia de PLC realizada en los módulos anteriores, el acople de la leva del punto 3 contra el canal 2 y el posterior movimiento en velocidad del master (canal 1). Usa el interruptor SF11 para iniciar y reiniciar la secuencia. Verifica el movimiento del esclavo con un proyecto de scope.    
+4. Añade a la secuencia de PLC realizada en los módulos anteriores, el acople de la leva del punto 3 contra el canal 2 y el posterior movimiento en velocidad del master (canal 1). Usa el interruptor SF11 para iniciar y reiniciar la secuencia. Cuando el interruptor pasa a off se debe hacer un halt de los dos ejes. Cuando el interruptor pasa a on se debe volver a iniciar la secuencia desde el inicio (homing, movimiento absoluto a 0, acople leva y movimiento en velocidad del master) Verifica el movimiento del esclavo con un proyecto de scope.    
 
