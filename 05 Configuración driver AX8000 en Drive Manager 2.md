@@ -30,9 +30,9 @@
 1. Instala el paquete necesario para configurar un drive Beckhoff. 
 2. Pon en marcha el demo kit de AX8000 para que los dos eje NC de los módulos anteriores sean ejes reales y no simulados. 
 3. Activa la función del eje NC del *reversing secuence* y comprueba que el eje se mueve. Activa el STO y revisa los errores en el DM2. Restaura el sistema para que vuelva a funcionar.
-4. Añade el par actual en el *process data* de los dos canales del AX8206 y verifica su valor a través del AXIS_REF.
-5. Consulta el código de error del drive mediante la librería TC2_MC2_drive. 
-6. Consulta el histórico de errores del drive mediante la librería Tc3_EtherCATDiag.
+4. Añade el par actual en el *process data* de los dos canales del AX8206 y verifica su valor a través del AXIS_REF. Resetea el error desde PLC. 
+5. Fuerza un error de drive mediante el DM2 mediante el parámetro 0x3004:03 del canal. Consulta el error reportado por el eje NC desde PLC. 
+6. Aplica un movimiento en velocidad de 3000 º/s al canal B, configura la rampa de error stop a 3600 º/s en el DM2. Cambia el parámetro 0x3404:02 a Closed_loop_ramp y fuerza un error con el parámetro 0x3404:03. Comprueba la rampa de parada que realiza el drive. Reseta el sistema y vuelve a dar velocidad al eje y quita el cable EtherCAT, comprueba la reacción del drive.
 7. Configura que la reacción ante un error de drive sea por rampa con una deceleración que permita parar el eje con un máximo de 0.5s desde máxima velocidad. 
 8. Haz un tunning manual de las constantes del bucle de posición y velocidad para minimizar el error de seguimiento sin que el eje vibre ni genere ruido. <br> 
 :warning: NOTA: Utilitza la función de *reversing sequence* para generar un movimiento alternativo entre 0º y 3600º (10 vueltas) con el tiempo mínimo posible sin que salte el error de seguimiento (*lag error*).
